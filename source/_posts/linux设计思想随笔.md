@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【reading-notes】Linux/Unix设计思想
+title: linux设计思想随笔
 date: 2018-08-22
 categories: reading-notes
 ---
