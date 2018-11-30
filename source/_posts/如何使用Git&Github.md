@@ -92,11 +92,15 @@ categories: development-tools
 
 ![邀请用户](/assets/img/picture/github团队邀请用户.png)
 
-
 **资料**
 
  * [Pro Git](https://progit.bootcss.com/)
  * [Git命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
  * [Github使用指南](https://github.com/AntBranch/awesome-github)
 
+### 使用gitub-lfs上传大文件
 
+* 初始化仓库`git lfs install`
+* 添加到lfs管理`git lfs track "*.pdf"`
+* 添加lfs追踪文件`git add .gitattributes`
+* 查看git-lfs管理文件`git lfs track`

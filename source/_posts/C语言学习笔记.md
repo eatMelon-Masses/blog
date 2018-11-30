@@ -14,12 +14,13 @@ categories: C语言
 <h2 id="环境搭建">环境搭建</h2>
 
 * mac
-    * 检查mac的gcc版本 - `gcc -v` <br>
-    * 添加运行配置<br>
-   [参考](https://www.jianshu.com/p/b3d10ae1ecba)
-   
+    * 检查mac的gcc版本 - `gcc -v` 
+    * 添加运行配置
+       [参考](https://www.jianshu.com/p/b3d10ae1ecba)
+    * 集成开发环境clion安装
+
 <h2 id="基础语法">基础语法</h2>   
-  
+
   * 数据类型
     1. 基本类型
       
@@ -37,7 +38,7 @@ categories: C语言
          * `register` - register 存储类用于定义存储在寄存器中而不是 RAM 中的局部变量
          * `static` - static 存储类指示编译器在程序的生命周期内保持局部变量的存在
          * `extern` - extern 存储类用于提供一个全局变量的引用，全局变量对所有的程序文件都是可见的
-         
+      
     2. 枚举类型
        * 定义枚举类型
        
@@ -45,7 +46,7 @@ categories: C语言
                  {
                     MON=1, TUE, WED, THU, FRI, SAT, SUN
                  };
-                 
+             
        * 定义枚举变量
        
                  enum DAY day;
@@ -91,44 +92,46 @@ categories: C语言
   * 指针
 
   >指针是一个变量，其值为另一个变量的地址，即，内存位置的直接地址<br>
-  >  `type *var-name;`
-  
+  >
+  > >  `type *var-name;`
+
   * 结构体
     
     * 结构体定义
       
 			struct tag { 
-			    member-list
-			    member-list 
-			    member-list  
-			    ...
-			} variable-list ;
-			
+		​	    member-list
+		​	    member-list 
+		​	    member-list  
+		​	    ...
+		​	} variable-list ;
+		
 	* 共用体定义
 
 			union [union tag]
-			{
-			   member definition;
-			   member definition;
-			   ...
-			   member definition;
-			} [one or more union variables];
+		​	{
+		​	   member definition;
+		​	   member definition;
+		​	   ...
+		​	   member definition;
+		​	} [one or more union variables];
 
 
-    
+​    
   * I/O文件
     * 文件打开
-          
+        ​    
+
             FILE *fopen( const char * filename, const char * mode );
-    
+
     * 文件关闭
 
             int fclose( FILE *fp );
-    
+
     * 文件写入
-    
+
             int fputc( int c, FILE *fp );
-    
+
     * 文件读取
 
             int fgetc( FILE * fp );
