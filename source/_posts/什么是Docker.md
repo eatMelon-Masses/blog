@@ -35,7 +35,7 @@ Docker 基于Linux容器技术,使用Go开发实现;
 
 ###### Docker基本概念
 
-![Docker基本结构](../assets/img/picture/engine-components-flow.png)
+![Docker基本结构](/assets/img/picture/engine-components-flow.png)
 
 
 
@@ -90,6 +90,7 @@ Docker 基于Linux容器技术,使用Go开发实现;
 * 容器停止：`docker stop`
 * 容器重启：`docker restart`
 * 创建新容器并运行：`docker run`
+* 清理已终止容器：`docker container prune`
 
 ### Docker使用案例
 
@@ -97,6 +98,33 @@ Docker 基于Linux容器技术,使用Go开发实现;
 
 * 查询mysql镜像：`docker search mysql`
 * 拉取mysql镜像：`docker pull mysql`
-* 创建容器：`docker run -p 3306:3306 --name mymysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql`
+* 创建容器：`docker run -p 33060:3306 --name mymysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql`
 * 查看本地容器：`docker ps [container_id]`
 
+###### Docker安装mongoDB
+
+* 查询mongoDB镜像：`docker search mongo`
+* 拉取mongoDB镜像：`docker pull mongo`
+* 创建mongoDB容器：`docker run --name mymongo -p 27017:27017 -v /data/db:/data/db -d mongo --auth`
+* 进入mongo容器：`docker exec -it mymongo mongo admin`
+* 创建管理员账号：`db.createUser({ user: '<USER>', pwd: '<PASSWORD>', roles: [ { role: 'userAdminAnyDatabase', db: 'admin' } ]})`
+* 退出mongo容器，以校验方式进入：`docker exec -it <YOUR-NAME> mongo -u <USER> -p <PASSWORD> --authenticationDatabase admin`
+
+[参考链接](https://brickyang.github.io/2017/03/15/%E5%88%A9%E7%94%A8-Docker-%E8%BF%90%E8%A1%8C-MongoDB/)
+
+Docker安装redis
+
+* 查询redis镜像：`docker search redis`
+* 拉取redis镜像：`docker pull redis`
+* 创建redis容器并运行：`docker run -d --name myredis -p 6379:6379 redis --requirepass "mypassword"`
+* 进入redis容器中并执行redis-cli：`docker exec -it b98b0c0e3797 redis-cli -a "jian031018"`
+
+Docker安装sqlserver
+
+* 
+
+### Docker图形化管理
+
+* 配置portainer目录：`docker volume create portainer_data`
+
+* 安装portainer容器：`docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer`
