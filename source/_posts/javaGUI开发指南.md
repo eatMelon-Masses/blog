@@ -36,7 +36,7 @@ categories: 技术
 
 ###### 布局管理器
 
-![java-layout](../assets/img/picture/java-Layout.png)
+![java-layout](https://jianjustin.github.io/blog/assets/img/picture/java-Layout.png)
 
 GUI布局方式主要包括：
 
@@ -62,13 +62,11 @@ GUI布局方式主要包括：
 
    > 卡片布局
 
-![java-flow](../assets/img/picture/java-flow-class.png)
-
 ###### 事件模型
 
 > GUI事件的驱动主要通过监听器进行驱动的；下图是java.awt.event的类图
 
-![java-event](../assets/img/picture/java-event-class.png)
+![java-event](https://jianjustin.github.io/blog/assets/img/picture/java-event-class.png)
 
 
 
@@ -76,7 +74,7 @@ GUI布局方式主要包括：
 
 * 按钮
 
-  ![java-button](../assets/img/picture/java-button-class.png)
+  ![java-button](https://jianjustin.github.io/blog/assets/img/picture/java-button-class.png)
 
 > 单选框可通过ButtonGroup实现排他性；而组合框则可以通过JComboBox实现
 
@@ -94,7 +92,7 @@ GUI布局方式主要包括：
 
 * 消息框
 
-  > 可选择JOptionPane实现
+  JOptionPane
 
 * 菜单
 
@@ -108,6 +106,10 @@ GUI布局方式主要包括：
 
   > 可以通过JProgressBar或JSlider实现进度条效果
 
+* 滚动条
+
+* 画布
+
 * 容器
 
   > 顶级容器包括JFrame和JDialog两类，中间轻量级容器包括：
@@ -118,21 +120,17 @@ GUI布局方式主要包括：
   > * JTabbedPane	选项卡面板
   > * JLayeredPane	层级面板
   > * JMenuBar	菜单栏
-  > * JToolBar	工具栏
-  > * JPopupMenu	弹出菜单
-  > * JInternalFrame	内部窗口
+2	JToolBar	工具栏
+3	JPopupMenu	弹出菜单
+4	JInternalFrame	内部窗口
 
 * 表格
 
-  ![java-model](../assets/img/picture/java-table-class.png)
+  ![java-model](https://jianjustin.github.io/blog/assets/img/picture/java-table-class.png)
 
 * 其他
 
   * 图片
-
-  * 下拉选择项
-
-    > 可选择JComboBox实现下拉选择项
 
   * 颜色选择器
 
@@ -148,7 +146,7 @@ GUI布局方式主要包括：
 
   * 文本格式化
 
-    ![java-model](../assets/img/picture/java-model-class.png)
+    ![java-model](https://jianjustin.github.io/blog/assets/img/picture/java-model-class.png)
 
 ###### 可插拔UI
 
@@ -165,6 +163,3 @@ UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName)
 
 ###### 样式自定义
 
-> Java swing组件样式自定义的方式是重写组件，通过2D绘图的方式重写组件样式
-
-[具体参考文档](https://blog.csdn.net/xietansheng/article/details/72814492)

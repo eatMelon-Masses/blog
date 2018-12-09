@@ -20,7 +20,7 @@ categories: development-tools
  	* 下载[安装包](https://git-scm.com/)
  	* 执行安装包
 
-	![git执行安装包](/assets/img/picture/git安装执行.png)
+	![git执行安装包](https://jianjustin.github.io/blog/assets/img/picture/git安装执行.png)
 
 2. **本地ssh-key配置**
 
@@ -48,7 +48,7 @@ categories: development-tools
 
 	* github配置ssh-key
 
-	![github配置ssh-key](/assets/img/picture/github配置ssh-key.png)
+	![github配置ssh-key](https://jianjustin.github.io/blog/assets/img/picture/github配置ssh-key.png)
 
 	* 测试与github服务器是否连通
 	```
@@ -60,7 +60,7 @@ categories: development-tools
 	* 下载[安装包](https://tortoisegit.org/download/)
  	* 执行安装包
 
-	![tortoiseGit安装执行](/assets/img/picture/tortoiseGit安装执行.png)
+	![tortoiseGit安装执行](https://jianjustin.github.io/blog/assets/img/picture/tortoiseGit安装执行.png)
 	
 
 
@@ -78,11 +78,11 @@ categories: development-tools
 ----------------
   * 个人账号创建
 
-![github账号注册](/assets/img/picture/github账号注册.png)
+![github账号注册](https://jianjustin.github.io/blog/assets/img/picture/github账号注册.png)
 
   *	仓库建立
 
-![github仓库创建](/assets/img/picture/github仓库创建.png)
+![github仓库创建](https://jianjustin.github.io/blog/assets/img/picture/github仓库创建.png)
 
 
 <a name="github多用户协作"/>
@@ -90,7 +90,7 @@ categories: development-tools
 ----------------
   * 邀请用户
 
-![邀请用户](/assets/img/picture/github团队邀请用户.png)
+![邀请用户](https://jianjustin.github.io/blog/assets/img/picture/github团队邀请用户.png)
 
 **资料**
 

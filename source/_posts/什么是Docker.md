@@ -35,7 +35,7 @@ Docker 基于Linux容器技术,使用Go开发实现;
 
 ###### Docker基本概念
 
-![Docker基本结构](/assets/img/picture/engine-components-flow.png)
+![Docker基本结构](https://jianjustin.github.io/blog/assets/img/picture/engine-components-flow.png)
 
 
 

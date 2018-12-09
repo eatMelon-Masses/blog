@@ -31,7 +31,7 @@ categories: translation
 
 从官方给的报告来看，其实就是数据库服务这一块出现问题，所以人为将相关服务断开网络连接；导致我们无法对数据进行操作，但是又能对Github仓库的文件系统进行同步操作。下图是Github给出的状态信息说明，我们可以从中看到，北京时间晚上20点左右故障已经基本移除，并在一小时后所有数据存储恢复正常。
 
-![Github状态信息](/blog/assets/img/picture/Github状态信息.png)
+![Github状态信息](https://jianjustin.github.io/blog/assets/img/picture/Github状态信息.png)
 
 ## 扩展
 
@@ -41,7 +41,7 @@ categories: translation
 
 例如2018年6月27日阿里云出现的[故障](https://bbs.aliyun.com/read/581590.html?spm=5176.10695662.1996646101.searchclickresult.711b46f42U3bhk)：
 
-![阿里云故障](/blog/assets/img/picture/阿里云故障.png)
+![阿里云故障](https://jianjustin.github.io/blog/assets/img/picture/阿里云故障.png)
 
 所以这里面涉及到两个**问题**：
 
