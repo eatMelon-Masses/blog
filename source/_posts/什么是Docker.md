@@ -126,5 +126,5 @@ Docker安装sqlserver
 ### Docker图形化管理
 
 * 配置portainer目录：`docker volume create portainer_data`
-
+* 拉取Docker镜像：`docker pull portainer/portainer`
 * 安装portainer容器：`docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer`
