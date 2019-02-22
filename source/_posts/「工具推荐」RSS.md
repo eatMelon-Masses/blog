@@ -30,9 +30,15 @@ RSS可以看作是一个个性化推送信息的服务，或者说的更直白�
 ### RSS信息源推荐
 
 * 掘金：https://juejin.im
-* 纽约时报：https://sspai.com/
-* 少数派：https://cn.nytimes.com/
+* 纽约时报：https://sspai.com
+* 少数派：https://cn.nytimes.com
 * 我的博客：https://jianjustin.github.io
+* 爱思想：http://www.aisixiang.com
+* github：https://github.blog
+* 阮一峰：http://www.ruanyifeng.com/blog
+* IBM社区：https://www.ibm.com/developerworks/cn
+* thoughtworks技术雷达：https://insights.thoughtworks.cn(**强烈推荐**)
+* https://www.infoq.cn/
 
 > RSS客户端推荐：reeder，FeedMe
 

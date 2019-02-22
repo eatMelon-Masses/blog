@@ -5,9 +5,9 @@ date: 2018-06-30
 categories: 收藏夹
 ---
 
-## 基本操作
+#### 基本操作
 
-### 快捷键
+###### 快捷键
 
 * 复制 `commoand+C`
 * 粘贴 `commoand+V`
@@ -16,7 +16,7 @@ categories: 收藏夹
 * 显示所有任务视图 `control+^`
 
 
-### 触摸板
+###### 触摸板
 
 * 显示桌面 ---- 捏拢拇指和其他三指
 * 切换桌面 ---- 三指左右轻扫
@@ -25,15 +25,17 @@ categories: 收藏夹
 * 选中操作 ---- 双指点击
 
 
-## 软件使用
+#### 软件使用
 
-### 基本软件
+###### 基本软件
 
 * 桌面壁纸`wallcat`
 * Rss软件`feedly`
+* 壁纸软件`Irvue`
+* [播客列表](https://sspai.com/post/42394)
 
 
-### 开发软件
+###### 开发软件
 
  * SVN管理`Versions`
  * git版本管理`sourceTree`
@@ -54,16 +56,7 @@ categories: 收藏夹
      添加运行配置<br>
    [参考](https://www.jianshu.com/p/b3d10ae1ecba)
 
-### 娱乐软件
 
 
-## 杂项
-
-## 配置
-
-### 配置host文件`/private/etc/host`
-
-
-
-
+[参考资料](http://wangchujiang.com/awesome-mac/index.zh.html)
 
