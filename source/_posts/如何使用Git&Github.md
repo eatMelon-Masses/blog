@@ -56,7 +56,7 @@ categories: development-tools
 	
 #### git命令行基本操作
 
-  
+
 * 了解帮助命令
 
    * `git help` : 查看命令
@@ -120,6 +120,22 @@ categories: development-tools
 * 添加lfs追踪文件`git add .gitattributes`
 * 查看git-lfs管理文件`git lfs track`
 
+#### 获取Github教育包
+
+* 登录Github-education网站[链接地址](https://education.github.com)
+* 提交教育信息(最好截图学信网教育信息)
+* 等待Github审核通知(一般在三～五天)
+* Github Education Pack内容说明
+  * algolia - hosted search API
+  * Atom - web editor
+  * AWS Cloud educate
+  * bitnami
+  * cart
+  * Data dog
+  * Travis-CI
+  * Unreal-Engine
+  * transifix
+  * heroku
 
 #### 参考资料
 
