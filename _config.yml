@@ -76,7 +76,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: even
 
-skip_render: README.md
 
 #RSS订阅
 rss: /atom.xml
