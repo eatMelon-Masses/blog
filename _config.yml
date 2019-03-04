@@ -27,7 +27,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -76,6 +76,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: even
 
+skip_render: README.md
+
 #RSS订阅
 rss: /atom.xml
 plugin:
@@ -90,7 +92,7 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/jianjustin/jianjustin.github.io.git
+  repo: https://github.com/jianjustin/jianjustin.github.io
   branch: master
   message: "Docs updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
 
