@@ -92,7 +92,7 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/jianjustin/jianjustin.github.io.git
+  repo: https://github.com/jianjustin/jianjustin.github.io
   branch: master
   message: "Docs updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
 
