@@ -1,9 +1,12 @@
 language: node_js
-node_js: --lts
+node_js: 
+   - '8'
 before_script:
   - git config user.name "jianjustin"
   - git config user.email "janine.jian.chen@gmail.com"
   - sed -i'' "s~https://github.com/jianjustin/jianjustin.github.io.git~https://${ACCESS_TOKEN}@github.com/jianjustin/jianjustin.github.io.git~" _config.yml
+install:
+- npm install
 script:
   - hexo clean
   - hexo deploy
