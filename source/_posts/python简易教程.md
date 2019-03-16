@@ -1,52 +1,28 @@
 ---
 layout: post
-title: python学习笔记
+title: python简易教程
 date: 2018-01-29
 categories: 技术
 ---
 
-## 目录
-
-* [安装](#安装)
-   * [python运行环境](#python运行环境)
-   * [集成开发环境](#集成开发环境)
-   * [pycharm使用](#pycharm使用)
-* [python基础](#python基础)
-   * [输入/输出](#输入/输出)
-   * [变量](#变量)
-   * [运算符](#运算符)
-   * [注释](#注释)
-   * [函数/模块](#函数/模块)
-   * [包](#包)
-   * [文件I/O](#文件I/O)
-   * [异常](#异常)
-* [python扩展](#python扩展)
-   * [函数式编程](#函数式编程)
-   * [面向对象编程](#面向对象编程)
-   * [进程和线程](#进程和线程)
-   * [网络编程](#网络编程)
-   * [数据库连接](#数据库连接)
-* [python函数库](#python函数库)
-* [常见异常说明](#常见异常说明)
-
-<h2 id="安装">安装</h2>
+## 安装
 
    * <span id="python运行环境">python运行环境安装</span>
-     
+
     >mac系统下安装
        * 安装依赖包：`brew install python3`
        * 检查python版本`python -V`
-
+    
     >window系统下安装
        
        * 安装包[下载](https://www.python.org/downloads/windows/)
        * 环境变量中添加Python目录
        * 环境检查`python -V`
-
+    
     [激活教程](https://blog.csdn.net/u014044812/article/details/78727496)   
     
     >版本升级
-     
+
    * <span id="集成开发环境">pycharm安装</span>
       * 下载[地址](https://www.jetbrains.com/pycharm/)
       * 执行下载安装包
@@ -78,18 +54,17 @@ categories: 技术
        * lib - Python标准库
        * Resources - python标准库文档
        * share - 案例和帮助说明
-     
-   
-<h2 id="python基础">python基础</h2>
 
-<h3 id="输入/输出">输入/输出</h3>
+## python基础
+
+#### 输入/输出
 
 1. `input("请输入：")`是python内置标准输入函数,默认读取键盘输入
 2. 标准输出:`print("The length of %s is %d" % (s,x))`
 
 [参考](http://www.runoob.com/python3/python3-inputoutput.html)
 
-<h3 id="变量">变量</h3>
+#### 变量
 
 标准数据类型：
 
@@ -124,14 +99,14 @@ categories: 技术
 ```
     for i in list:
       print("序号：%s   值：%s" % (list.index(i) + 1, i))
-```      
+```
 
 * 方法二:
 
 ```
     for i in list:
       print("序号：%s   值：%s" % (list.index(i) + 1, i)) 
-```   
+```
 
 * 方法三:
   
@@ -166,7 +141,7 @@ categories: 技术
 ```
     for key in d:
        print key, 'corresponds to', d[key]
-```       
+```
 
   1. 方法二:
 
@@ -177,7 +152,7 @@ categories: 技术
 
 ><span style="color:red">del语句删除一些 Number 对象引用</span>
 
-<h3 id="运算符">运算符</h3>
+### 运算符
 
   - 算术运算符`+`,`-`,`*`,`/`,`%`,`**`,`//`
   - 关系运算符`==`,`!=`,`<>`,`<`,`>`,`>=`,`<=`
@@ -187,12 +162,13 @@ categories: 技术
   - 成员运算符`in`,`not in`
   - 身份运算符`is`,`is not`
 
-<h3 id="注释">注释</h3>
+### 注释
 
   * 单行注释`#`
   * 多行注释`'''`
 
-<h3 id="函数/模块">函数/模块</h3>
+### 函数/模块
+
 >函数是组织好的，可重复使用的，用来实现单一，或相关联功能的代码段
 
     def functionname( parameters ):
@@ -208,13 +184,13 @@ categories: 技术
 
 lambda表达式:
 
-<h3 id="包">包</h3>
+### 包
 
 >注意：任意包含 __init__.py 文件的目录都被认为是一个Python包
 
 <h4 style="color:red">包和模块的区别？</h4>
 
-<h3 id="文件I/O">文件I/O</h3>
+### 文件I/O
 
 文件操作函数:
 
@@ -232,7 +208,7 @@ lambda表达式:
   - write([str])将字符串写入文件
   - writelines(sequence)向文件写入一个序列字符串列表
 
-<h3 id="异常">异常</h3>
+### 异常
 
 (1) 异常处理:
 
@@ -251,12 +227,11 @@ lambda表达式:
       def __init__(self, arg):
           self.args = arg
 
+## python扩展
 
-<h2 id="python扩展">python扩展</h2>
+#### 函数式编程
 
-<h3 id="函数式编程">函数式编程</h3>
-
-<h3 id="面向对象编程">面向对象编程</h3>
+#### 面向对象编程
 
 类定义:
 属性定义:
@@ -266,11 +241,11 @@ lambda表达式:
 `区分静态函数和实例函数`
 `变量作用域`
 
-<h3 id="进程和线程">进程和线程</h3>
+#### 进程和线程
 
-<h3 id="网络编程">网络编程</h3>
+#### 网络编程
 
-<h3 id="数据库连接">数据库连接</h3>
+#### 数据库连接
 
 (1)数据库模块包`mysql-connector-python`
   a. 安装:`pip install mysql-connector-python`
@@ -292,12 +267,12 @@ b. 动作语句执行
 > cursor.execute("INSERT INTO tableName(cloumns_name1,cloumns_name2) VALUES (cloumns_value1,columns_value2)")
 > conn.commit()
 
-<h2 id="python函数库">python函数库</h2>
+## python函数库
 
-<h2 id="常见异常说明">常见异常说明</h2>
-   
+## 常见异常说明
+
    * 编码问题
-    
+
    >SyntaxError: Non-ASCII character '\xe6' in file 打印日期.py on line 1, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details 
 
     解决方式：在代码头部添加`# -*- coding: UTF-8 -*-32`

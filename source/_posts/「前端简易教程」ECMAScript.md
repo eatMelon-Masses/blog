@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ECMAScript-Introduction
+title: 「前端简易教程」ECMAScript
 date: 2018-11-21
 categories: 技术
 ---

@@ -1,9 +1,8 @@
 ---
 layout: post
-title: html-notes-introduction
+title: 「前端简易教程」HTML导论
 date: 2018-05-05
-categories: 
-  - 技术
+categories: 技术
 ---
 
 ## 前言

@@ -1,16 +1,13 @@
 ---
 layout: post
-title: linux使用笔记
+title: linux入门简易教程
 date: 2018-03-28
 categories: 技术
 ---
 
-## 目录
+## 命令
 
-* [命令](#命令)
-* [工具](#工具)
-
-<h2 id="命令">命令说明</h2>
+#### 基础命令
 
 <span style="color:red">apt-get</span>
 
@@ -48,8 +45,7 @@ categories: 技术
 * list-units - 显示所有已启动服务
 * start - 启动某服务
 
-
-<h2 id="工具">工具</h2>
+## 工具
 
 * Systemd - 启动守护进程
 * openssh-server - 开发SSH服务
