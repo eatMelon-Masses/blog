@@ -12,9 +12,7 @@ categories: 技术
 * Position - 定位布局
 * multiple-column layout - 多列布局
 * Flewbox布局
-* Grid布局（[Grid入门学习教程][1]）
-
-[参考CSS布局网站][2]
+* Grid布局
 
 接着，小编会大致描述一下Grid布局：
 

@@ -103,41 +103,40 @@ HTML(Hypertext Markup Language)是对于web页面的描述性语言
 
 ##### meta
 
-* `name` - 设置HTML文档元数据
+* `name` 
 
-  >包括`application-name` , `author`，`description`，`generator`，`keywords`等属性
+  设置HTML文档元数据,包括`application-name` , `author`，`description`，`generator`，`keywords`等属性
 
-* `content` - 用于设置HTML元数据或HTTP头部信息值
+* `content` 
 
-* `http-equiv` - 用于设置HTTP头部信息
+  用于设置HTML元数据或HTTP头部信息值
 
-  > 包括`content-language`，`content-type`，`default-style`，`refresh`等属性
+* `http-equiv` 
 
-* `charset` - 设置HTML文档编码格式
+  用于设置HTTP头部信息,包括`content-language`，`content-type`，`default-style`，`refresh`等属性
+
+* `charset` 
+
+  设置HTML文档编码格式
 
 ### body标签说明
 
 ##### 文本标签
 
 * 标题
-
   ```html
   <h1>Marking up textual content in HTML</h1>
   ```
-
 * 段落
-
   ```html
   <p>This is a very short paragraph. It only has two sentences.</p>
   ```
-
 * 引用
-
   ```html
   <blockquote cite="http://www.w3.org/TR/html401/">
-      <p>This document obsoletes previous versions of HTML 4.0</p></blockquote>
+      <p>This document </p>
+  </blockquote>
   ```
-
 * 预格式化文本
 
   ```html
@@ -177,20 +176,20 @@ HTML(Hypertext Markup Language)是对于web页面的描述性语言
 
 > 链接是指向其他文档或资源的路径
 
-* 链接标签案例
+1. 链接标签案例
 
   ```html
   <p><a href="http://www.opera.com">Opera Software</a></p>
   ```
 
-* 链接属性
+2. 链接属性
 
   * href：存放目标资源链接地址或**锚ID**(用于页面内链接间跳转)
   * id ：链接唯一标识,可用于css样式描述或锚ID
   * class ：链接类名,可用于css样式描述
   * title :链接内容描述,在链接获取焦点事件时获取
 
-* 链接事件
+3. 链接事件
 
   * :link-----链接未被点击
   * :visited--链接已被点击

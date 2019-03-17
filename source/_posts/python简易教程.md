@@ -7,46 +7,47 @@ categories: 技术
 
 ## 安装
 
-   * <span id="python运行环境">python运行环境安装</span>
+#### python运行环境安装
 
-    >mac系统下安装
-       * 安装依赖包：`brew install python3`
-       * 检查python版本`python -V`
-    
-    >window系统下安装
-       
-       * 安装包[下载](https://www.python.org/downloads/windows/)
-       * 环境变量中添加Python目录
-       * 环境检查`python -V`
-    
-    [激活教程](https://blog.csdn.net/u014044812/article/details/78727496)   
-    
-    >版本升级
+* mac环境
 
-   * <span id="集成开发环境">pycharm安装</span>
-      * 下载[地址](https://www.jetbrains.com/pycharm/)
-      * 执行下载安装包
-      * 点击`Create New Project`
-      * 输入项目名、路径、选择`python解释器`
+  * 安装依赖包：`brew install python3`
+  * 检查python版本`python -V`
 
-   * <span id="pycharm使用">pycharm使用</span>
-     * 编辑器设置 - 字体大小设置`Settings-->Editor-->Colors & Fonts-->Font`
-     * 断点调试
-        1. 设置断点 - 鼠标单击进行设置断点
-        2. 运行断点 - 点击那个绿色的甲虫图标进行断点调试
-     * 搜索
-        * 全局搜索`Ctrl + Shift + F`
-        * 当前文件搜索`Ctrl + F`
-        * 文件跳转`Ctrl + Shift + O`
-     * 快捷键
-        * ctrl+alt+t：弹出下拉菜单，选择可使用范围控制结构
-        * ctrl+alt+l：代码格式化
-        * F8 :单步调试
-        * F9 :debugger模式执行
-        * ctrl+shift+F8:查看断点
-        * ctrl+alt+S:settings面板弹出
+* window环境
 
-    * python目录说明(`基于macOS系统`)
+  * 安装包[下载](https://www.python.org/downloads/windows/)并安装
+  * 环境变量中添加Python目录
+  * 环境检查`python -V`
+
+  [激活教程](https://blog.csdn.net/u014044812/article/details/78727496)
+
+#### pycharm安装
+
+* 下载[地址](https://www.jetbrains.com/pycharm/)
+* 执行下载安装包
+* 点击`Create New Project`
+* 输入项目名、路径、选择`python解释器`
+
+#### pycharm使用
+
+* 编辑器设置 - 字体大小设置`Settings-->Editor-->Colors & Fonts-->Font`
+* 断点调试
+   1. 设置断点 - 鼠标单击进行设置断点
+   2. 运行断点 - 点击那个绿色的甲虫图标进行断点调试
+* 搜索
+   * 全局搜索`Ctrl + Shift + F`
+   * 当前文件搜索`Ctrl + F`
+   * 文件跳转`Ctrl + Shift + O`
+* 快捷键
+   * ctrl+alt+t：弹出下拉菜单，选择可使用范围控制结构
+   * ctrl+alt+l：代码格式化
+   * F8 :单步调试
+   * F9 :debugger模式执行
+   * ctrl+shift+F8:查看断点
+   * ctrl+alt+S:settings面板弹出
+
+   * python目录说明(`基于macOS系统`)
        * bin - python可执行文件
        * etc
        * headers
@@ -268,12 +269,4 @@ b. 动作语句执行
 > conn.commit()
 
 ## python函数库
-
-## 常见异常说明
-
-   * 编码问题
-
-   >SyntaxError: Non-ASCII character '\xe6' in file 打印日期.py on line 1, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details 
-
-    解决方式：在代码头部添加`# -*- coding: UTF-8 -*-32`
 
