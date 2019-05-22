@@ -1,9 +1,12 @@
-## Blog
-![blog-database](https://img.shields.io/badge/blog-databasee-orange.svg)
-![travis-CI-master](https://travis-ci.com/jianjustin/blog.svg?branch=master)
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+## JIAN-BLOG
 
 
-个人博客数据存放位置，用于数据备份
+该仓库是我博客所属仓库，主要记录平时的一些技术学习和笔记
 
 [博客地址](https://jianjustin.github.io)
+
+#### 如何联系我？
+
+* 邮箱地址：Janine.jian.chen@gmail.com
+* QQ：717266257
+* wx：CJRMYH

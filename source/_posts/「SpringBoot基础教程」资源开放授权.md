@@ -29,8 +29,6 @@ categories: spring
 * OpenID - spring-security-openid.jar
 * Test - spring-security-test.jar
 
-#### JWT Token和OAuth2比较
-
 #### OAuth2标准
 
 #### SpringBoot项目添加Spring Security支持

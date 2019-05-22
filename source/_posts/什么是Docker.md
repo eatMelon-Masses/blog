@@ -112,16 +112,17 @@ Docker 基于Linux容器技术,使用Go开发实现;
 
 [参考链接](https://brickyang.github.io/2017/03/15/%E5%88%A9%E7%94%A8-Docker-%E8%BF%90%E8%A1%8C-MongoDB/)
 
-Docker安装redis
+###### Docker安装redis
 
 * 查询redis镜像：`docker search redis`
 * 拉取redis镜像：`docker pull redis`
 * 创建redis容器并运行：`docker run -d --name myredis -p 6379:6379 redis --requirepass "mypassword"`
 * 进入redis容器中并执行redis-cli：`docker exec -it b98b0c0e3797 redis-cli -a "jian031018"`
 
-Docker安装sqlserver
+###### Docker安装sqlserver
 
-* 
+* 拉取sqlserver镜像：`docker pull microsoft/mssql-server-linux`
+* 创建sqlserver容器：`docker run --name jian-sqlserver -m 512m -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Jian031018' -p 1433:1433 -d microsoft/mssql-server-linux`
 
 ### Docker图形化管理
 
