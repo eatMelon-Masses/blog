@@ -30,6 +30,7 @@ i18n_dir: :lang
 skip_render: README.md
 _internal: lib
 
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -72,13 +73,9 @@ time_format: HH:mm:ss
 per_page: 0
 pagination_dir: page
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: even
+theme: Material-T
 
 
-#RSS订阅
 rss: /atom.xml
 plugin:
   - hexo-generator-feed
@@ -88,11 +85,8 @@ feed:
   path: atom.xml
   limit: 20
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  #repo: https://access_token@github.com/jianjustin/jianjustin.github.io.git
   repo: https://github.com/jianjustin/jianjustin.github.io.git
   branch: master
   message: "Docs updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"

@@ -122,7 +122,7 @@ Docker 基于Linux容器技术,使用Go开发实现;
 ###### Docker安装sqlserver
 
 * 拉取sqlserver镜像：`docker pull microsoft/mssql-server-linux`
-* 创建sqlserver容器：`docker run --name jian-sqlserver -m 512m -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Jian031018' -p 1433:1433 -d microsoft/mssql-server-linux`
+* 创建sqlserver容器：`docker run --name jian-sqlserver -m 512m -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=123456' -p 1433:1433 -d microsoft/mssql-server-linux`
 
 ### Docker图形化管理
 
