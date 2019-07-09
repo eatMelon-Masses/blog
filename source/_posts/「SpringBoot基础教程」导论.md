@@ -44,8 +44,6 @@ categories: spring
     * RELEASE：GA发布
     * SR1：服务版本
 
-
-
 #### 可参考项目
 
  * [Guns](https://github.com/stylefeng/Guns)
